@@ -7,8 +7,7 @@ SetBackgroundColor 200 29 0
 PlayAlertSound 10 300
 PlayEffect Red
 MinimapIcon 2 Red Circle
-SetFontSize 45
-
+SetFontSize 35
 
 
 Show
@@ -20,18 +19,15 @@ SetBackgroundColor 200 29 0
 PlayAlertSound 10 300
 PlayEffect Red
 MinimapIcon 2 Red Star
-SetFontSize 45
+SetFontSize 40
 
 
-Show
+Hide
 Rarity Unique
 SetTextColor 175 96 37 255
 SetBorderColor 175 96 37 255
 SetBackgroundColor 53 13 13 255
-PlayAlertSound 3 300
-PlayEffect Brown
-MinimapIcon 2 Brown Star
-SetFontSize 40
+SetFontSize 25
 
 ## Divine Orb Style
 Show
@@ -87,7 +83,7 @@ MinimapIcon 1 White Circle
 Show
 Class "Currency"
 BaseType "Neural Catalyst" "Tul's Catalyst" "Esh's Catalyst" "Chayula's Catalyst" "Reaver Catalyst" "Adaptive Catalyst"
-SetFontSize 40
+SetFontSize 30
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 SetBackgroundColor 76 51 12
@@ -113,7 +109,6 @@ StackSize >= 500
 BaseType == "Gold"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
-PlayEffect Orange Temp
 
 Hide
 BaseType == "Gold"
@@ -160,7 +155,7 @@ SetTextColor 0 240 190
 SetBorderColor 0 240 190
 SetFontSize 40
 MinimapIcon 2 Cyan Triangle
-PlayEffect Cyan
+#PlayEffect Cyan
 
 # Special A Tier - Rare Jewels
 Show
@@ -168,9 +163,9 @@ Class "Jewel"
 Rarity Rare
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
-SetFontSize 40
+SetFontSize 30
 MinimapIcon 2 Cyan Triangle
-PlayEffect Cyan
+#PlayEffect Cyan
 
 # Special B Tier - Any Jewels
 Show
@@ -178,8 +173,8 @@ Class "Jewel"
 Rarity Magic
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
-SetFontSize 40
-PlayEffect Cyan Temp
+SetFontSize 30
+#PlayEffect Cyan Temp
 
 # Special B Tier - Any Runes and Charms
 Hide
@@ -201,7 +196,7 @@ SetBackgroundColor 240 90 35
 PlayAlertSound 1 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 40
+SetFontSize 35
 
 Show
 Class "Omen"
@@ -219,11 +214,11 @@ Class "Currency"
 BaseType "Vaal Orb" "Chaos Orb" "Exotic" "Exalted Orb" "Glassblower's Bauble" "Orb of Alchemy" "Greater Jeweller's Orb"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
-SetBackgroundColor 76 51 12
+SetBackgroundColor 0 127 166
 PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 38
+SetFontSize 32
 
 # Currency Tier C: Vaal, Chaos, Exalt, Exotic
 Hide
@@ -245,7 +240,7 @@ SetFontSize 40
 Show
 Class "Currency"
 BaseType "Simulacrum Splinter" "Breach Splinter"
-SetFontSize 35
+SetFontSize 30
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 217 15 173 255
