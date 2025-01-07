@@ -296,17 +296,17 @@ BaseType "Barya" "Ultimatum"
 Show
 BaseType "Waystone" 
 Rarity <= Rare
-WaystoneTier > 14
+WaystoneTier >= 14
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 PlayAlertSound 4 300
 PlayEffect White
 MinimapIcon 1 White Square
-SetFontSize 40
+SetFontSize 35
 
 Hide
 BaseType "Waystone"
-WaystoneTier <= 12
+WaystoneTier <= 13
 
 Show
 BaseType "Logbook"
