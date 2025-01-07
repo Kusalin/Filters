@@ -70,7 +70,7 @@ SetFontSize 40
 
 Show
 Class "Currency"
-BaseType "Distilled" "Essence of" "Omen of"
+BaseType "Distilled" "Omen of"
 SetFontSize 45
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
@@ -79,6 +79,16 @@ PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 1 White Circle
 
+Show
+Class "Currency"
+BaseType "Essence of"
+SetFontSize 30
+SetTextColor 255 207 132
+SetBorderColor 255 207 132
+SetBackgroundColor 76 51 12
+PlayAlertSound 2 300
+PlayEffect White
+MinimapIcon 1 White Circle
 
 Show
 Class "Currency"
@@ -212,13 +222,13 @@ SetFontSize 40
 Show
 Class "Currency"
 BaseType "Vaal Orb" "Chaos Orb" "Exotic" "Exalted Orb" "Glassblower's Bauble" "Orb of Alchemy" "Greater Jeweller's Orb"
-SetTextColor 255 207 132
-SetBorderColor 255 207 132
-SetBackgroundColor 0 127 166
+SetTextColor 255 207 132 255
+SetBorderColor 255 207 132 255
+SetBackgroundColor 0 94 189 255 
 PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 32
+SetFontSize 35
 
 # Currency Tier C: Vaal, Chaos, Exalt, Exotic
 Hide
